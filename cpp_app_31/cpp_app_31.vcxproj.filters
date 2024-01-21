@@ -4,10 +4,22 @@
     <Filter Include="Main">
       <UniqueIdentifier>{02dd0c14-82d6-4953-a1f6-86bcf553c516}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Traffic">
+      <UniqueIdentifier>{f2842afe-5f1c-46c8-8eba-f23d66e66be0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="Traffic.cpp">
+      <Filter>Traffic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Traffic.h">
+      <Filter>Traffic</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h" />
   </ItemGroup>
 </Project>
